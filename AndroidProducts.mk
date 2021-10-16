@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/radiant_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_alioth-user \
-    radiant_alioth-userdebug \
-    radiant_alioth-eng
+    arrow_alioth-user \
+    arrow_alioth-userdebug \
+    arrow_alioth-eng
