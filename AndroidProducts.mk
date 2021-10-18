@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_alioth.mk
+    $(LOCAL_DIR)/arrow_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
     arrow_alioth-user \

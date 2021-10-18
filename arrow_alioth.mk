@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/arrow/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_alioth
