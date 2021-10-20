@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/cherish/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_alioth
+PRODUCT_NAME := cherish_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
