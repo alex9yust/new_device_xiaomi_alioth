@@ -21,13 +21,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/alioth/audio
 PRODUCT_PACKAGES += \
     XiaomiDoze \
     XiaomiParts
-    
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-# Disable APEX compression
-# Keep this after including updatable_apex.mk
-PRODUCT_COMPRESSED_APEX := false
-    
 
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml\
